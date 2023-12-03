@@ -1,6 +1,6 @@
 function displayGreetings(today){
         hrs = today.getHours();
-        name = "Annie";
+        const name = "Annie";
         if (hrs < 12)
             greeting = 'Good Morning  ' +name;
         else if (hrs >= 12 && hrs <= 17)
