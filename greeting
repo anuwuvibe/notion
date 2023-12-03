@@ -2,11 +2,11 @@ function dispalyGreetings(today){
         hrs = today.getHours();
         name="Annie"
         if (hrs < 12)
-            greeting = 'Good Morning  '+name;
+            greeting = 'Good Morning  ' +name;
         else if (hrs >= 12 && hrs <= 17)
-            greeting = 'Good Afternoon '+name;
+            greeting = 'Good Afternoon ' +name;
         else if (hrs >= 17 && hrs <= 24)
-            greeting = 'Good Evening  '+name;
+            greeting = 'Good Evening  ' +name;
         document.getElementById('greeting').innerHTML = greeting;
 
     }
