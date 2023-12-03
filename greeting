@@ -1,4 +1,4 @@
-function dispalyGreetings(today){
+function displayGreetings(today){
         hrs = today.getHours();
         name = "Annie";
         if (hrs < 12)
